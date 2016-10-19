@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mohit.tourist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstPage" />
+        <activity android:name=".Cities.New_Delhi.NewDelhiInfo" />
+        <activity android:name=".Cities.Chandigarh.ChandigarhInfo" />
+        <activity android:name=".Cities.Hyderabad.HyderabadInfo" />
+        <activity android:name=".Cities.Bangalore.BangaloreInfo" />
+        <activity android:name=".Cities.New_Delhi.Places.RedFort" />
+        <activity android:name=".Cities.New_Delhi.Places.QutbMinar" />
+        <activity android:name=".Cities.New_Delhi.Places.HumayunTomb" />
+        <activity android:name=".Cities.New_Delhi.Places.LotusTemple" />
+        <activity android:name=".Cities.New_Delhi.Places.Akshardham" />
+        <activity android:name=".Cities.New_Delhi.Places.IndiaGate" />
+        <activity android:name=".Cities.New_Delhi.Places.LaxmiNarayanTemple" />
+        <activity android:name=".Cities.New_Delhi.Places.AgrasenKiBaoli" />
+        <activity android:name=".Cities.Chandigarh.Places.RockGarden" />
+        <activity android:name=".Cities.Chandigarh.Places.RoseGarden" />
+        <activity android:name=".Cities.Chandigarh.Places.PinjoreGarden" />
+        <activity android:name=".Cities.Chandigarh.Places.ChattbirZoo" />
+        <activity android:name=".Cities.Chandigarh.Places.CactusGarden" />
+        <activity android:name=".Cities.Chandigarh.Places.LeCorbusier" />
+        <activity android:name=".Cities.Chandigarh.Places.TerracedGarden" />
+        <activity android:name=".Cities.Chandigarh.Places.DollsMuseum" />
+        <activity android:name=".Cities.Hyderabad.Places.Charminar" />
+        <activity android:name=".Cities.Hyderabad.Places.Golkonda" />
+        <activity android:name=".Cities.Hyderabad.Places.HussainSagar" />
+        <activity android:name=".Cities.Hyderabad.Places.MakkahMasjid" />
+        <activity android:name=".Cities.Hyderabad.Places.LumbiniPark" />
+        <activity android:name=".Cities.Hyderabad.Places.ShamirpetLake" />
+        <activity android:name=".Cities.Hyderabad.Places.SanjeevaiahPark" />
+        <activity android:name=".Cities.Hyderabad.Places.DurgamCheruvu" />
+        <activity android:name=".Cities.Bangalore.Places.ISKCONTemple" />
+        <activity android:name=".Cities.Bangalore.Places.Ulsoor" />
+        <activity android:name=".Cities.Bangalore.Places.KodandaramaTemple" />
+        <activity android:name=".Cities.Bangalore.Places.BellandurLake" />
+        <activity android:name=".Cities.Bangalore.Places.PenisularGneiss" />
+        <activity android:name=".Cities.Bangalore.Places.Thottikallu" />
+        <activity android:name=".Cities.Bangalore.Places.HebbalLake" />
+        <activity android:name=".Cities.Bangalore.Places.BugleRock" />
+        <activity android:name=".Cities.TravelAgent"></activity>
+    </application>
+
+</manifest>
